@@ -12,7 +12,7 @@ const Resume = ({ isDarkMode }) => {
     const dispatch = useDispatch()
     const fetchExp = async () => {
         try {
-            const res = await axios.get('http://localhost:8080/api/v1/experience/allExperiences')
+            const res = await axios.get('https://portfolio-website-three-beryl.vercel.app/api/v1/experience/allExperiences')
             if (res.data) {
                 setResume(res.data.experiences)
             }
