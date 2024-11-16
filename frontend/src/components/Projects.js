@@ -11,7 +11,7 @@ const Projects = ({ isDarkMode }) => {
     const dispatch = useDispatch()
     const fetchProjects = async() => {
         try {
-            const res = await axios.get('http://localhost:8080/api/v1/project/allProjects')
+            const res = await axios.get('https://portfolio-website-three-beryl.vercel.app/api/v1/project/allProjects')
             if(res.data){
                 setprojects(res.data.projects)
             }
