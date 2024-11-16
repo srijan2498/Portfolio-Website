@@ -8,7 +8,13 @@ const morgan = require('morgan')
 
 const app = express()
 dotenv.config()
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://srijan-tripathi.vercel.app"],
+        methods: ["POST", "GET", "PUT", "DELETE"],
+        credentials: true
+    }
+));
 connectDb()
 
 app.use(morgan('dev'))
