@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import taxi1 from "../assets/taxibooking1.png"
 import SingleProject from './SingleProject'
 import axios from 'axios'
 import { useDispatch } from 'react-redux'
