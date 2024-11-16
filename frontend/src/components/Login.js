@@ -26,7 +26,7 @@ const Login = ({ isDarkMode, setNavStatus }) => {
                 password: passwordRef.current.value,
                 securityKey: securityRef.current.value
             }
-            const res = await axios.post('https://portfolio-website-three-beryl.vercel.app/api/v1/getAdmin', data)
+            const res = await axios.post('https://portfolio-website-api-psi.vercel.app/api/v1/getAdmin', data)
             if (res.data) {
                 setTimeout(() => {
                     dispatch(unsetLoadingAction())
