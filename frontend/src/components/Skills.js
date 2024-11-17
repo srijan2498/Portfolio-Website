@@ -10,7 +10,7 @@ const Skills = ({ isDarkMode }) => {
     const dispatch = useDispatch()
     const fetchSkills = async () => {
         try {
-            const res = await axios.get('https://portfolio-website-three-beryl.vercel.app/api/v1/skill/allSkills')
+            const res = await axios.get('https://portfolio-website-api-psi.vercel.app/api/v1/skill/allSkills')
             if (res.data) {
                 setMySkillsArr(res.data.skills)
             }
