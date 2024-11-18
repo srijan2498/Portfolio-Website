@@ -4,8 +4,11 @@
 I've just launched my portfolio website, showcasing my skills and projects built with a robust tech stack:
 
 🔹 **Frontend:** React & Redux for seamless UI and efficient state management
+
 🔹 **Backend:** Node.js & Express.js to power the server-side logic
+
 🔹 **Database:** MongoDB for dynamic data storage and retrieval
+
 🔹 **Authentication:** JWT for secure and scalable user access
 
 💡 This portfolio highlights my expertise in full-stack development and serves as a central hub for my projects, skills, and achievements.
