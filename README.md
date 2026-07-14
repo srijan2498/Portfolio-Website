@@ -13,7 +13,7 @@ I've just launched my portfolio website, showcasing my skills and projects built
 🔹 **Authentication:** JWT for secure and scalable user access
 
 
-💡 This portfolio highlights my expertise in full-stack development and serves as a central hub for my projects, skills, and achievements.
+💡 This portfolio highlights my expertise in full-stack development and serves as a central hub for my projects, skills and achievements.
 
 🎯 **Key Features:**
 
